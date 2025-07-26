@@ -1,0 +1,98 @@
+:root {
+  /* Light modern theme: faded blue and white */
+  --solarized-base03: #f9fbfd;
+  --solarized-base02: #f3f7fa;
+  --solarized-base01: #e6eef5;
+  --solarized-base00: #dbe6ef;
+  --solarized-base0: #abbdce;
+  --solarized-base1: #5c6a75;
+  --solarized-base2: #8ca6bb;
+  --solarized-base3: #6c8ca3;
+  --solarized-yellow: #f9faf3;
+  --solarized-orange: #f7f9f6;
+  --solarized-red: #f9f9fa;
+  --solarized-magenta: #f7f8fa;
+  --solarized-violet: #f3f6fa;
+  --solarized-blue: #e3effa;
+  --solarized-cyan: #e6f7fa;
+  --solarized-green: #e6f9f3;
+}
+
+:root {
+  background-color: var(--solarized-base00);
+}
+
+.stuff-page {
+  background-color: var(--solarized-base01);
+  width: 98vw;
+  height: 95vh;
+  display: flex;
+  gap: 15px;
+}
+.stuff-page .sidebar-container {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04);
+  flex: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.stuff-page .content-container {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04);
+  height: 100%;
+  width: calc(80% - 40px);
+  flex: 4;
+}
+.stuff-page .content-container .content-preview {
+  width: 100%;
+  height: 100%;
+}:root {
+  /* Light modern theme: faded blue and white */
+  --solarized-base03: #f9fbfd;
+  --solarized-base02: #f3f7fa;
+  --solarized-base01: #e6eef5;
+  --solarized-base00: #dbe6ef;
+  --solarized-base0: #abbdce;
+  --solarized-base1: #5c6a75;
+  --solarized-base2: #8ca6bb;
+  --solarized-base3: #6c8ca3;
+  --solarized-yellow: #f9faf3;
+  --solarized-orange: #f7f9f6;
+  --solarized-red: #f9f9fa;
+  --solarized-magenta: #f7f8fa;
+  --solarized-violet: #f3f6fa;
+  --solarized-blue: #e3effa;
+  --solarized-cyan: #e6f7fa;
+  --solarized-green: #e6f9f3;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--solarized-base02);
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04);
+  gap: 8px;
+}
+.sidebar .sidebar-item {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 16px;
+  background-color: var(--solarized-base01);
+  border: none;
+  border-radius: 4px;
+  color: var(--solarized-base3);
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.sidebar .sidebar-item:hover {
+  background-color: var(--solarized-base00);
+  transform: translateX(2px);
+}
+.sidebar .sidebar-item:active {
+  background-color: var(--solarized-violet);
+  transform: translateX(1px);
+}

@@ -1,0 +1,58 @@
+:root {
+  /* Light modern theme: faded blue and white */
+  --solarized-base03: #f9fbfd;
+  --solarized-base02: #f3f7fa;
+  --solarized-base01: #e6eef5;
+  --solarized-base00: #dbe6ef;
+  --solarized-base0: #abbdce;
+  --solarized-base1: #5c6a75;
+  --solarized-base2: #8ca6bb;
+  --solarized-base3: #6c8ca3;
+  --solarized-yellow: #f9faf3;
+  --solarized-orange: #f7f9f6;
+  --solarized-red: #f9f9fa;
+  --solarized-magenta: #f7f8fa;
+  --solarized-violet: #f3f6fa;
+  --solarized-blue: #e3effa;
+  --solarized-cyan: #e6f7fa;
+  --solarized-green: #e6f9f3;
+}
+
+.landing-page {
+  background-color: var(--solarized-base02);
+  color: var(--solarized-base2);
+  padding: 20px;
+  text-align: center;
+  width: 50vw;
+  height: 50vh;
+  margin: 25vh auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -12px 8px 24px 0 rgba(0, 0, 0, 0.25);
+}:root {
+  /* Light modern theme: faded blue and white */
+  --solarized-base03: #f9fbfd;
+  --solarized-base02: #f3f7fa;
+  --solarized-base01: #e6eef5;
+  --solarized-base00: #dbe6ef;
+  --solarized-base0: #abbdce;
+  --solarized-base1: #5c6a75;
+  --solarized-base2: #8ca6bb;
+  --solarized-base3: #6c8ca3;
+  --solarized-yellow: #f9faf3;
+  --solarized-orange: #f7f9f6;
+  --solarized-red: #f9f9fa;
+  --solarized-magenta: #f7f8fa;
+  --solarized-violet: #f3f6fa;
+  --solarized-blue: #e3effa;
+  --solarized-cyan: #e6f7fa;
+  --solarized-green: #e6f9f3;
+}
+
+body {
+  background-color: var(--solarized-base03);
+  color: var(--solarized-base3);
+  font-family: system-ui, sans-serif;
+}
